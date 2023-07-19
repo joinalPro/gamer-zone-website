@@ -338,7 +338,7 @@ img {
 /* button section styles ended here  */
 /* footer section start here */
 footer {
-    height: 650px;
+    height: 800px;
     text-align: center;
     background: #0B0223;
 }
@@ -397,6 +397,7 @@ footer {
 .footer-second-category p {
     color: #FFF;
     font-size: 16px;
+    display: flex;
 
 }
 
