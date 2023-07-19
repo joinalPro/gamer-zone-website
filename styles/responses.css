@@ -1,20 +1,32 @@
 @media screen and (max-width:400px) {
-
     .nav-container,
-    .menu-items-container {
+    .menu-items-container,
+    .play-container
+         {
         flex-direction: column;
     }
-
-
-
-    .menu-items-container a {
+   
+    .menu-items-container a{
         margin-top: 20px;
-        margin-bottom: 10px;
-        /* font-size: 18px; */
+    }
+    /* nav section ended here! */
 
+    /* banner section start here */
+    .play-container, .banner-img-container{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    .play-container-text > h3{
+        font-size: 25px;
+    }
+    .play-container-text h2{
+        font-size: 20px;
     }
 
-    .logo-container {
+    .banner-img-container{
         width: 100%;
         margin: 20px auto;
     }
