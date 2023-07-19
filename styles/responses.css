@@ -1,35 +1,67 @@
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
+
     .nav-container,
     .menu-items-container,
-    .play-container
-         {
+    .play-container,
+    .play-instantly-download {
         flex-direction: column;
     }
-   
-    .menu-items-container a{
+
+
+    .game-items {
+        display: flex;
+        /* margin: -100px; */
+        position: relative;
+        top: 10px;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .play-container-text {
+        flex-direction: column;
+    }
+
+    .menu-items-container a {
         margin-top: 20px;
     }
+
     /* nav section ended here! */
 
     /* banner section start here */
-    .play-container, .banner-img-container{
-        align-items: center;
+
+    .play-container-text {
+        margin-left: 5px;
+        /* padding: 5px; */
+        width: 350px;
+        /* border: 1px solid tomato; */
         text-align: center;
-        width: 100%;
-        
     }
-    
-    .play-container-text > h3{
-        font-size: 25px;
-    }
-    .play-container-text h2{
+
+    .play-container-text h3 {
         font-size: 20px;
+        text-align: center;
     }
 
-    .banner-img-container{
-        width: 100%;
-        margin: 20px auto;
+    .play-container-text h2 {
+        font-size: 35px;
+        text-align: center;
     }
 
+    .online-text {
+        margin-top: 50px;
+    }
+
+    .banner-img-container img {
+        width: 129%;
+        padding-top: 30px;
+        margin-left: 67px;
+    }
+
+    .btn-one {
+        margin-bottom: 20px;
+    }
 
 }

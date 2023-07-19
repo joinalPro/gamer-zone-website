@@ -104,7 +104,8 @@ header {
     background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 
 }
-.play-container{
+
+.play-container {
     margin: 50px auto 0;
     max-width: 1400px;
     display: flex;
@@ -113,21 +114,25 @@ header {
     height: 700px;
 
 }
-.play-container-text{
+
+.play-container-text {
     width: 50%;
     /* padding-left: 240px; */
     /* text-align:center; */
 }
-.banner-img-container{
+
+.banner-img-container {
     width: 50%;
     background: #fff;
     /* box-shadow: 1px 2px 5px rgb(235, 225, 225); */
 }
-.banner-img-container  img{
+
+.banner-img-container img {
     width: 100%;
     padding-top: 55px;
 }
-.play-container-text h3{
+
+.play-container-text h3 {
     color: #0B0223;
     /* text-align: center; */
     font-size: 48px;
@@ -135,7 +140,8 @@ header {
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-.play-container-text h2{
+
+.play-container-text h2 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -146,76 +152,84 @@ header {
     text-transform: uppercase;
     margin: 10px 0;
 }
-.play-container-text p{
+
+.play-container-text p {
     color: #534C64;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     text-transform: lowercase;
 }
-.btn-one{
+
+.btn-one {
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     padding: 21px 40px;
     border: 0;
     color: #fff;
     font-size: 20px;
-    margin-right: 20px;   
+    margin-right: 20px;
 }
-.btn-two{
+
+.btn-two {
     border-radius: 48px;
     border-radius: 48px;
-    background: #4EC5F7;    
+    background: #4EC5F7;
     padding: 21px 40px;
     border: 0;
     color: #fff;
     font-size: 20px;
     margin-right: 20px;
 }
-.online-text{
+
+.online-text {
     text-align: center;
     margin-top: 100px;
 }
-.online-text h2{
+
+.online-text h2 {
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
 }
-.game-items{
+
+.game-items {
     display: grid;
     grid-template-columns: 342px 342px 342px 342px 342px;
     gap: 20px;
     padding: 20px 240px;
 }
+
 .para-description {
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
 }
+
 /* card styles */
-/* Add any additional CSS style you want for the card and the video icon */
+
+
 .card {
     position: relative;
     width: 300px;
-    /* border: 1px solid #ccc; */
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 5px;
-  }
-  
-  img {
+}
+
+img {
     width: 100%;
     display: block;
     border-radius: 8px 8px 0 0;
-  }
-  
-  .card-content {
+}
+
+.card-content {
     padding: 16px;
-  }
-  
-  /* Style for the video icon */
-  .video-icon {
+}
+
+/* Style for the video icon */
+.video-icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -223,137 +237,155 @@ header {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 50%;
     padding: 16px;
-  }
-  
-  /* Style for the video icon (font-awesome) */
-  .video-icon i {
+}
+
+/* Style for the video icon (font-awesome) */
+.video-icon i {
     color: #fff;
     font-size: 24px;
-  }
-  /* card styles ended here */
+}
+
+/* card styles ended here */
 
 /* play instantly download styles start here*/
-.play-instantly-download{
+.play-instantly-download {
     display: flex;
     margin: 130px 240px 50px 240px;
-    gap:100px;
+    gap: 100px;
     max-width: 1400px;
     /* align-items: center; */
 
-    
+
 }
-.play-download-contnet{
+
+.play-download-contnet {
     width: 50%;
 }
-.play-instantly-download .play-instantly-title{
+
+.play-instantly-download .play-instantly-title {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
 }
-.play-instantly-download p{
-   margin-left: 150px;
-   text-align: center; 
-   width: 350px;
-   height: 100px;
+
+.play-instantly-download p {
+    margin-left: 150px;
+    text-align: center;
+    width: 350px;
+    height: 100px;
 }
-.game-download-img{
+
+.game-download-img {
     width: 50%;
 }
-.small-image img{
+
+.small-image img {
     border-radius: 8px;
-    width: 340px;    
+    width: 340px;
     padding: 10px;
     position: relative;
     bottom: 250px;
     right: 110px
 }
-#play-text{
+
+#play-text {
     color: #F144AE;
-   
+
 }
+
 /* play instantly download styles ended here*/
 /* button section styles start here */
-.button-section{
+.button-section {
     max-width: 1400px;
     margin: 50px auto;
 }
+
 .button-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-  }
-  
-  .button {
+    align-items: center;
+}
+
+.button {
     display: flex;
-    flex-direction: row; 
-    flex: 0 0 calc(20% - 20px); 
-    border: 1px solid transparent; 
+    flex-direction: row;
+    flex: 0 0 calc(20% - 20px);
+    border: 1px solid transparent;
     overflow: hidden;
     position: relative;
-  }
-  
-  .button img {
+}
+
+.button img {
     width: 60px;
     height: 60px;
     display: block;
     border-radius: 8px;
-  }
-  
-  .title {
+}
+
+.title {
     padding: 8px;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     border: 1px solid #e893cf;
     border-radius: 15px;
-  }
-  
-  /* button section styles ended here  */
-  /* footer section start here */
-footer{
+    background: #FFF;
+
+}
+
+/* button section styles ended here  */
+/* footer section start here */
+footer {
     height: 650px;
     text-align: center;
     background: #0B0223;
-  }
-.footer-logo{
+}
+
+.footer-logo {
     padding-top: 120px;
     margin: 50px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.footer-logo .footer-logo-text{
+
+.footer-logo .footer-logo-text {
 
     font-size: 45px;
     font-weight: 700;
     color: #FFF;
 }
+
 .footer-logo img {
     width: 86.041px;
     height: 40px;
     margin-right: 10px;
 }
-.footer-category ul{
+
+.footer-category ul {
     display: flex;
     justify-content: center;
     font-size: 18px;
 
 }
 
-.footer-category ul li{
+.footer-category ul li {
     list-style: none;
     margin-right: 60px;
     color: #FFF;
 
 }
-.footer-second-category ul{
+
+.footer-second-category ul {
     display: flex;
     justify-content: center;
     font-size: 18px;
 }
-.footer-second-category ul li{
+
+.footer-second-category ul li {
     list-style: none;
     padding: 10px;
     align-items: flex-start;
@@ -361,18 +393,21 @@ footer{
     font-size: 16px;
     color: #FFF;
 }
-.footer-second-category p{
+
+.footer-second-category p {
     color: #FFF;
     font-size: 16px;
 
 }
-.icons-container{
+
+.icons-container {
     display: flex;
     justify-content: space-between;
     width: 20%;
     margin: 40px auto 40px;
 }
-.icon-items{
+
+.icon-items {
     width: 40px;
     height: 40px;
 }
