@@ -37,7 +37,6 @@
         margin-left: 5px;
         /* padding: 5px; */
         width: 350px;
-        /* border: 1px solid tomato; */
         text-align: center;
     }
 
@@ -66,7 +65,7 @@
     }
 
     .play-instantly-download {
-        border: 1px solid indigo;
+        /* border: 1px solid indigo; */
         display: flex;
         padding: 10px;
         /* max-width: 1400px; */
