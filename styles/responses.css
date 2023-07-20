@@ -7,11 +7,8 @@
     .footer-category ul {
         flex-direction: column;
     }
-
-
     .game-items {
         display: flex;
-        /* margin: -100px; */
         position: relative;
         top: 10px;
         justify-content: center;
@@ -35,7 +32,6 @@
 
     .play-container-text {
         margin-left: 5px;
-        /* padding: 5px; */
         width: 350px;
         text-align: center;
     }
@@ -65,11 +61,9 @@
     }
 
     .play-instantly-download {
-        /* border: 1px solid indigo; */
+        
         display: flex;
         padding: 10px;
-        /* max-width: 1400px; */
-        /* text-align: center; */
         align-items: center;
     }
 

@@ -197,7 +197,7 @@ header {
     display: grid;
     grid-template-columns: 342px 342px 342px 342px 342px;
     gap: 20px;
-    padding: 20px 240px;
+    padding: 20px 350px;
 }
 
 .para-description {
